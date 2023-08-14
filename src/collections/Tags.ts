@@ -1,10 +1,10 @@
 import { CollectionConfig } from 'payload/types';
 
-const Categories: CollectionConfig = {
-  slug: 'categories',
+const Tags: CollectionConfig = {
+  slug: 'tags',
   admin: {
     useAsTitle: 'name',
-    group: 'Product',
+    hidden:true,
   },
   access: {
     read: () => true,
@@ -18,4 +18,4 @@ const Categories: CollectionConfig = {
   timestamps: false,
 }
 
-export default Categories;
+export default Tags;

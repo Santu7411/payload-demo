@@ -1,10 +1,10 @@
 import { CollectionConfig } from 'payload/types';
 
-const Categories: CollectionConfig = {
-  slug: 'categories',
+const Coupons: CollectionConfig = {
+  slug: 'coupons',
   admin: {
     useAsTitle: 'name',
-    group: 'Product',
+    group: 'Rewards',
   },
   access: {
     read: () => true,
@@ -18,4 +18,4 @@ const Categories: CollectionConfig = {
   timestamps: false,
 }
 
-export default Categories;
+export default Coupons;
